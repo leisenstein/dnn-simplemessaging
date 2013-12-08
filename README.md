@@ -2,7 +2,7 @@ dnn-simplemessages
 ==================
 Simple Messages Module for DotNetNuke
 
-Compatible with DNN 6.0+
+Compatible with DNN 6.2.6+
 
 This is a simple module that uses DNN's AddModuleMessage to send messages to other users. 
 
