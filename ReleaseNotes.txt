@@ -1,0 +1,25 @@
+﻿<h3>CITMessages</h3>
+<p class="Contributor">
+	PMCC <br />
+	<a href="mailto:larryeisenstein@gmail.com">larryeisenstein@gmail.com</a><br />
+	<a href=http://www.eisenstein.us>http://www.eisenstein.us</a><br />
+</p>
+<hr/>
+<div class="License">
+	<h3>About the CITMessages</h3>
+	<p class="Owner">
+		<b>Version 0.0.1</b><br /><br />
+	</p>
+	<p>Description about version.</p>
+
+	<p>This module lets a user create message for other users.  These messages will be displayed as a list when the other user views the module.</p>
+	
+	<h4>Initial Release</h4>
+	<ul>
+			<li>Create Messages that will display when user views module</li>
+			<li></li>
+			<li></li>
+			<li></li>
+	</ul>
+	
+</div>

@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CITMessages</name>
+    </assembly>
+    <members>
+        <member name="T:PMCC.Modules.CITMessages.Data.SqlDataProvider">
+            -----------------------------------------------------------------------------
+            <summary>
+            SQL Server implementation of the abstract DataProvider class
+            </summary>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="T:PMCC.Modules.CITMessages.Data.DataProvider">
+            -----------------------------------------------------------------------------
+            <summary>
+            An abstract class for the data access layer
+            </summary>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="T:PMCC.Modules.CITMessages.Settings">
+            -----------------------------------------------------------------------------
+            <summary>
+            The Settings class manages Module Settings
+            </summary>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="M:PMCC.Modules.CITMessages.Settings.LoadSettings">
+            -----------------------------------------------------------------------------
+            <summary>
+            LoadSettings loads the settings from the Database and displays them
+            </summary>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="M:PMCC.Modules.CITMessages.Settings.UpdateSettings">
+            -----------------------------------------------------------------------------
+            <summary>
+            UpdateSettings saves the modified settings to the Database
+            </summary>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="F:PMCC.Modules.CITMessages.Settings.lblSetting1">
+            <summary>
+            lblSetting1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:PMCC.Modules.CITMessages.Settings.txtSetting1">
+            <summary>
+            txtSetting1 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:PMCC.Modules.CITMessages.Settings.lblSetting2">
+            <summary>
+            lblSetting2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:PMCC.Modules.CITMessages.Settings.txtSetting2">
+            <summary>
+            txtSetting2 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:PMCC.Modules.CITMessages.Settings.lblSetting3">
+            <summary>
+            lblSetting3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:PMCC.Modules.CITMessages.Settings.txtSetting3">
+            <summary>
+            txtSetting3 control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:PMCC.Modules.CITMessages.Edit">
+            -----------------------------------------------------------------------------
+            <summary>
+            The EditCITMessages class is used to manage content
+            </summary>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="F:PMCC.Modules.CITMessages.Edit.ddlUser">
+            <summary>
+            ddlUser control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:PMCC.Modules.CITMessages.Edit.btnSubmit">
+            <summary>
+            btnSubmit control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:PMCC.Modules.CITMessages.Edit.gvCITMessage">
+            <summary>
+            gvCITMessage control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:PMCC.Modules.CITMessages.Edit.lblError">
+            <summary>
+            lblError control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="T:PMCC.Modules.CITMessages.Components.FeatureController">
+            -----------------------------------------------------------------------------
+            <summary>
+            The Controller class for CITMessages
+            </summary>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="M:PMCC.Modules.CITMessages.Components.FeatureController.ExportModule(System.Int32)">
+            -----------------------------------------------------------------------------
+            <summary>
+            ExportModule implements the IPortable ExportModule Interface
+            </summary>
+            <param name="ModuleID">The Id of the module to be exported</param>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="M:PMCC.Modules.CITMessages.Components.FeatureController.ImportModule(System.Int32,System.String,System.String,System.Int32)">
+            -----------------------------------------------------------------------------
+            <summary>
+            ImportModule implements the IPortable ImportModule Interface
+            </summary>
+            <param name="ModuleID">The Id of the module to be imported</param>
+            <param name="Content">The content to be imported</param>
+            <param name="Version">The version of the module to be imported</param>
+            <param name="UserId">The Id of the user performing the import</param>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="M:PMCC.Modules.CITMessages.Components.FeatureController.GetSearchItems(DotNetNuke.Entities.Modules.ModuleInfo)">
+            -----------------------------------------------------------------------------
+            <summary>
+            GetSearchItems implements the ISearchable Interface
+            </summary>
+            <param name="ModInfo">The ModuleInfo for the module to be Indexed</param>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="M:PMCC.Modules.CITMessages.Components.FeatureController.UpgradeModule(System.String)">
+            -----------------------------------------------------------------------------
+            <summary>
+            UpgradeModule implements the IUpgradeable Interface
+            </summary>
+            <param name="Version">The current version of the module</param>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="T:PMCC.Modules.CITMessages.View">
+            -----------------------------------------------------------------------------
+            <summary>
+            The ViewCITMessages class displays the content
+            </summary>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="M:PMCC.Modules.CITMessages.View.Page_Load(System.Object,System.EventArgs)">
+            -----------------------------------------------------------------------------
+            <summary>
+            Page_Load runs when the control is loaded
+            </summary>
+            -----------------------------------------------------------------------------
+        </member>
+        <member name="F:PMCC.Modules.CITMessages.View.showIfEditMode">
+            <summary>
+            showIfEditMode control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+    </members>
+</doc>
