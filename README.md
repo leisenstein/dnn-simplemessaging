@@ -1,4 +1,4 @@
-dnn-simplemessages
+DNN Simple Messaging
 ==================
 Simple Messages Module for DotNetNuke
 
